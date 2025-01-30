@@ -82,6 +82,7 @@ heroku create your-heroku-app-name
 Set Heroku Config Vars
 `NODE_ENV`=production
 `DATABASE_URL`=postgres://your_database_url
+'HOST=0.0.0.0'
 
 7️⃣ Push to Heroku
 
