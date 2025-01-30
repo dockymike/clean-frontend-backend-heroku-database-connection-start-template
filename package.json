@@ -2,10 +2,11 @@
     "name": "clean-frontend-backend-heroku-template",
     "version": "1.0.0",
     "private": true,
-    "scripts": {
-        "start": "cd backend && node server.js",
-        "install:all": "cd backend && npm install && cd ../frontend && npm install",
-        "heroku-postbuild": "cd frontend && npm install && npm run build"
-    },
+"scripts": {
+    "start": "cd backend && node server.js",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "heroku-postbuild": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+}
+,
     "dependencies": {}
 }
