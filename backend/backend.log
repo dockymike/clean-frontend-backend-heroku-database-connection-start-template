@@ -1,0 +1,7 @@
+2025-01-30T00:13:11.568Z [ERROR]: ❌ Database connection failed: no pg_hba.conf entry for host "98.97.118.177", user "u2bi21tcurcbcv", database "d5f4ibvtsau81j", no encryption
+2025-01-30T00:13:11.569Z [ERROR]: 🔍 Detailed Error: error: no pg_hba.conf entry for host "98.97.118.177", user "u2bi21tcurcbcv", database "d5f4ibvtsau81j", no encryption
+    at C:\Users\micha\OneDrive\Documents\chartdental\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-30T00:14:35.810Z [INFO]: ✅ Database connected successfully
+2025-01-30T00:21:48.261Z [INFO]: ✅ Database connected successfully
+2025-01-30T00:24:28.715Z [INFO]: ✅ Database connected successfully
